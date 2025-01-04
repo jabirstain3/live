@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart - Dream Homes</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.22/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body class="w-full max-w-[1440px] m-auto">
+    <header id="navbar" class="w-full max-w-[1280px] m-auto">
+        <div class="my-1 md:my-3 lg:my-5 navbar">
+            <div class="navbar-start">
+                <a href="index.html">
+                    <button class="btn btn-ghost text-3xl font-extrabold p-0 m-0" href="index.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8 p-[6px] bg-[#ABEF5F] rounded-full" style="color:black;">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                        </svg>
+                        <span>KureeGhar</span>
+                    </button>
+                </a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1 text-base">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <div class="hidden md:block md:flex items-center gap-3">    
+                    <a href="cart.html">
+                        <button tabindex="0" role="button" class="btn btn-ghost  border-[#E9E9E9] bg-white btn-circle" href="cart.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                            </svg>
+                        </button>
+                    </a>
+                    <a href="contact.html" class="btn w-fit mx-auto rounded-full bg-[#ABEF5F] text-xl font-extrabold">
+                        Book Consult
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8 p-[6px] bg-black rounded-full" style="color:white;">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="dropdown ">
+                    <div tabindex="0" role="button" class="btn btn-ghost border-[#E9E9E9] bg-white btn-circle lg:hidden p-0">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                        </svg>
+                    </div>
+                    <!-- <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        <li><a>Item 1</a></li>
+                        <li><a>Parent</a></li>
+                        <li><a>Item 3</a></li>
+                        <li><a class="btn">Button</a></li>
+                    </ul> -->
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="bg-gray-100">
+        <div class=" w-full mx-auto py-20 px-6">
+            <h2 class="text-3xl font-bold text-gray-800 text-center mb-8">Your Shopping Cart</h2>
+
+            <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                <table class="w-full table-auto text-left">
+                    <thead>
+                        <tr class="bg-gray-200">
+                            <th class="px-6 py-4">Property</th>
+                            <th class="px-6 py-4">Price</th>
+                            <th class="px-6 py-4">Area</th>
+                            <th class="px-6 py-4">Total</th>
+                            <th class="px-6 py-4">Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Cart Item Example -->
+                        <tr class="border-t">
+                            <td class="px-6 py-4">Luxury Villa</td>
+                            <td class="px-6 py-4">$500,000</td>
+                            <td class="px-6 py-4">5000 sqft</td>                            </td>
+                            <td class="px-6 py-4">$500,000</td>
+                            <td class="px-6 py-4">
+                                <button class="text-red-600 hover:underline">Remove</button>
+                            </td>
+                        </tr>
+
+                        <tr class="border-t">
+                            <td class="px-6 py-4">Modern Apartment</td>
+                            <td class="px-6 py-4">$250,000</td>
+                            <td class="px-6 py-4">5000 spft</td>
+                            <td class="px-6 py-4">$250,000</td>
+                            <td class="px-6 py-4">
+                                <button class="text-red-600 hover:underline">Remove</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="flex justify-between items-center p-6">
+                    <a href="shop.html" class="text-blue-600 hover:underline">Continue Shopping</a>
+                    <div class="text-right">
+                        <p class="text-lg font-bold">Subtotal: $750,000</p>
+                        <a href="checkout.html" class="btn mt-4 rounded-full bg-[#ABEF5F] text-lg font-bold text-black text-center">
+                            Proceed to Checkout
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer footer-center bg-[#1C1C1C] text-base-content rounded p-20">
+        <div class="">
+            <button class="btn btn-ghost text-3xl text-white font-extrabold p-0 m-0">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8 p-[6px] bg-[#ABEF5F] rounded-full" style="color:black;">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                </svg>
+                <span>KureeGhar</span>
+            </button>
+        </div>
+        <aside>
+            <p class="paragraph text-[#737373]">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+        </aside>
+        
+        <nav class=" w-11/12 max-w-[500px] grid sm:grid-flow-col gap-4 font-mormal text-[#E9E9E9]">
+            <a href="index.html" class="link link-hover">Home</a>
+            <a href="about.html" class="link link-hover">About</a>
+            <a href="shop.html" class="link link-hover">Shop</a>
+            <a href="contact.html" class="link link-hover">Contact Us</a>
+        </nav>
+        <div>
+            <a href="contact.html" class="btn w-fit mx-auto rounded-full bg-[#ABEF5F] text-xl font-extrabold">
+                Book Consult
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8 p-[6px] bg-black rounded-full" style="color:white;">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                </svg>
+            </a>
+        </div>
+    </footer>
+</body>
+</html>

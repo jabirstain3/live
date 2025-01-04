@@ -1,0 +1,26 @@
+* {
+    /* border: 1px solid black; */
+}
+
+.headding {
+    font-size: 40px;
+    font-weight: bold;
+}
+.paragraph {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.statehead {
+    margin: 0 auto;
+    font-size: 40px;
+    font-weight:bolder;
+}
+.statepera {
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 400;
+    color: #737373;
+}

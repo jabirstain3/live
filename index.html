@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KureeGhar</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.22/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body class="w-full max-w-[1440px] m-auto">
+    <section  class="w-full h-screen bg-gradient-to-b from-[#F4F4F4] to-white flex flex-col">
+        <header id="navbar" class="w-full max-w-[1280px] m-auto">
+            <div class="my-1 md:my-3 lg:my-5 navbar">
+                <div class="navbar-start">
+                    <a href="index.html">
+                        <button class="btn btn-ghost text-3xl font-extrabold p-0 m-0" href="index.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8 p-[6px] bg-[#ABEF5F] rounded-full" style="color:black;">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                            </svg>
+                            <span>KureeGhar</span>
+                        </button>
+                    </a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1 text-base">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <div class="hidden md:block md:flex items-center gap-3">    
+                        <a href="cart.html">
+                            <button tabindex="0" role="button" class="btn btn-ghost  border-[#E9E9E9] bg-white btn-circle" href="cart.html">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                                </svg>
+                            </button>
+                        </a>
+                        <a href="contact.html" class="btn w-fit mx-auto rounded-full bg-[#ABEF5F] text-xl font-extrabold">
+                            Book Consult
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8 p-[6px] bg-black rounded-full" style="color:white;">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="dropdown ">
+                        <div tabindex="0" role="button" class="btn btn-ghost border-[#E9E9E9] bg-white btn-circle lg:hidden p-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                            </svg>
+                        </div>
+                        <!-- <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            <li><a>Item 1</a></li>
+                            <li><a>Parent</a></li>
+                            <li><a>Item 3</a></li>
+                            <li><a class="btn">Button</a></li>
+                        </ul> -->
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div id="hero" class="hero max-w-[1280px] m-auto h-full ">
+            <div class="hero-content text-center">
+                <div class="w-full sm:w-5/6 max-w-5xl m-auto">
+                    <div class="w-full maw-w-xl mx-auto pb-6">
+                        <img src="./assets/banner.png" alt="" class="object-cover m-auto">
+                    </div>
+                    <h1 class="text-5xl font-bold">A barn house of this design has a striking appearance</h1>
+                    <p class="paragraph py-6">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+                    <button tabindex="0" role="button" class="btn rounded-full bg-[#ABEF5F] text-xl font-extrabold">
+                        View Details
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="border border-black size-8 p-[6px] bg-[#ABEF5F] rounded-full" style="color:black;">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <main class="w-full bg-[#F4F4F4]">
+        <div id="about" class="w-full max-w-[1280px] m-auto hero py-14 px-0">
+            <div class=" hero-content flex-col lg:flex-row gap-6 m-0">
+                <div class=" w-full lg:w-1/2 text-center lg:text-left">
+                    <a href="about.html" class="btn w-fit mx-auto my-4 rounded-full bg-white text-[#494949] text-xl font-bold">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                        </svg>
+                        About Us
+                    </a>
+                    <h1 class="headding">We design thoughtful, liveable spaces</h1>
+                    <p class="paragraph py-6">We believe in merging creativity with functionality. Our team of architects and builders specializes in creating spaces that inspire and endure. Whether it's a cozy home or a sprawling commercial project, we deliver excellence.</p>
+
+                    <div class="mt-4 flex flex-col sm:flex-row lg:flex-col gap-4 text-left">
+                        <div class=" w-full bg-white p-5 flex justify-start items-center gap-4 rounded-2xl">
+                            <img src="./assets/commercial.png" alt="" class="w-15 h-15">
+                            <div class="">
+                                <h3 class="text-xl font-extrabold">Commercial</h3>
+                                <p class="pt-4 paragraph text-[#737373]">Functional designs with aesthetic appeal. View our detailed portfolio to witness our commitment to quality and creativity</p>
+                            </div>
+                        </div>
+
+                        <div class=" w-full bg-white p-5 flex justify-start items-center gap-4 rounded-2xl">
+                            <img src="./assets/residential.png" alt="" class="w-15 h-15">
+                            <div class="">
+                                <h3 class="text-xl font-extrabold">Residential</h3>
+                                <p class="pt-4 paragraph text-[#737373]">A blend of rustic charm and modern sophistication. Customized spaces with elegance and precision</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img src="./assets/Rectangle.png" class="w-full lg:w-1/2 aspect-[3/2] lg:aspect-square rounded-3xl" />
+            </div>
+        </div>
+
+        <div class="w-full  max-w-[1280px] mx-auto py-10">
+            <h1 class="headding text-center mb-8">Our Featured Houses</h2>
+            <div class="p-4 m-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center content-center">
+                <!-- Product Card -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden w-full max-w-sm p-4">
+                    <img src="./assets/article3.png" alt="House 1" class="w-full h-48 ">
+                    <div class="mt-4">
+                        <h3 class="text-xl font-semibold text-gray-800">Luxury Villa</h3>
+                        <p class="text-gray-600 mt-2">4 Beds | 3 Baths | 3000 sqft</p>
+                        <p class="text-gray-800 font-bold mt-4">$500,000</p>
+                        <a href="sproduct.html" class="btn w-full mt-4 rounded-full bg-[#ABEF5F] text-lg font-bold text-black text-center">
+                            View Details
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Product Card -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden w-full max-w-sm p-4">
+                    <img src="./assets/article1.png" alt="House 2" class="w-full h-48">
+                    <div class="mt-4">
+                        <h3 class="text-xl font-semibold text-gray-800">Modern Apartment</h3>
+                        <p class="text-gray-600 mt-2">2 Beds | 2 Baths | 1500 sqft</p>
+                        <p class="text-gray-800 font-bold mt-4">$250,000</p>
+                        <a href="sproduct.html" class="btn w-full mt-4 rounded-full bg-[#ABEF5F] text-lg font-bold text-black text-center">
+                            View Details
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Product Card -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden w-full max-w-sm p-4">
+                    <img src="./assets/article2.png" alt="House 3" class="w-full h-48">
+                    <div class="mt-4">
+                        <h3 class="text-xl font-semibold text-gray-800">Cozy Cottage</h3>
+                        <p class="text-gray-600 mt-2">3 Beds | 2 Baths | 2000 sqft</p>
+                        <p class="text-gray-800 font-bold mt-4">$350,000</p>
+                        <a href="sproduct.html" class="btn w-full mt-4 rounded-full bg-[#ABEF5F] text-lg font-bold text-black text-center">
+                            View Details
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <a href="shop.html" class="btn w-fit mx-auto mt-4 rounded-full bg-white text-[#494949] text-xl font-bold">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                </svg>
+                More Options...
+            </a>
+        </div>
+
+        <div id="state" class="w-11/12  max-w-[1280px] mx-auto my-20 p-10 rounded-3xl bg-white grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 justify-items-center content-center">
+            <div class="w-64 p-4 grid justify-center">
+                <div class="">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-10 w-10 stroke-current mx-auto">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.625 9.75a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H8.25m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H12m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0h-.375m-13.5 3.01c0 1.6 1.123 2.994 2.707 3.227 1.087.16 2.185.283 3.293.369V21l4.184-4.183a1.14 1.14 0 0 1 .778-.332 48.294 48.294 0 0 0 5.83-.498c1.585-.233 2.708-1.626 2.708-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z" />
+                    </svg> 
+                </div>
+                <h1 class="statehead">300+</h1>
+                <p class="statepera">Happy Clint Review</p>
+            </div>
+            <div class=" w-64 p-4 grid justify-center">
+                <div class="">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-10 w-10 stroke-current mx-auto">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6.429 9.75 2.25 12l4.179 2.25m0-4.5 5.571 3 5.571-3m-11.142 0L2.25 7.5 12 2.25l9.75 5.25-4.179 2.25m0 0L21.75 12l-4.179 2.25m0 0 4.179 2.25L12 21.75 2.25 16.5l4.179-2.25m11.142 0-5.571 3-5.571-3" />
+                    </svg>
+                </div>
+                <h1 class="statehead">50+</h1>
+                <p class="statepera">Work Departments</p>
+            </div>
+            <div class=" w-64 p-4 grid justify-center">
+                <div class="">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-10 w-10 stroke-current mx-auto">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z" />
+                    </svg>
+                </div>
+                <h1 class="statehead">31K+</h1>
+                <p class="statepera">Our Happy clint</p>
+            </div>
+            <div class=" w-64 p-4 grid justify-center">
+                <div class="">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-10 w-10 stroke-current mx-auto">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 19.128a9.38 9.38 0 0 0 2.625.372 9.337 9.337 0 0 0 4.121-.952 4.125 4.125 0 0 0-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 0 1 8.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0 1 11.964-3.07M12 6.375a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0Zm8.25 2.25a2.625 2.625 0 1 1-5.25 0 2.625 2.625 0 0 1 5.25 0Z" />
+                    </svg> 
+                </div>
+                <h1 class="statehead">200</h1>
+                <p class="statepera">Staff Members</p>
+            </div>
+        </div>
+
+        <div id="portfolio" class="bg-white mt-20 py-20">
+            <div class=" w-11/12 max-w-[1280px] mx-auto">
+                <div class="text-center m-4">
+                    <!-- <button tabindex="0" role="button" class="btn  my-4 rounded-full bg-white text-[#494949] text-xl font-bold">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                        </svg>
+                        Explore our Latest works
+                    </button> -->
+                    <h1 class="headding">Our Latest Portfolio</h1>
+                    <p class="paragraph py-6">Discover our latest projects that showcase our commitment to quality and creativity. From commercial complexes to luxury villas, our portfolio highlights our expertise in blending functionality with aesthetic appeal.</p>
+                </div>
+                <div class="w-full mx-auto my-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-8 gap-4 justify-items-center content-center">
+                    <div class="border rounded-3xl p-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 sm:col-span-2 lg:col-span-5 content-center">
+                        <div class="w-full aspect-[3/2] lg:col-span-2 ">
+                            <img src="./assets/img1.png" alt="" class="w-full aspect-[3/2]">
+                        </div>
+                        <div class="lg:col-span-3">
+                            <h1 class="font-extrabold text-2xl"-extrabold>Commercial Complexes</h1>
+                            <p class="my-3"> Functional designs with aesthetic appeal. View our detailed portfolio to witness our commitment to quality and creativity.</p>
+                            <button class="btn rounded-full text-xl font-extrabold">
+                                View Details
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8 p-[6px] bg-[#ABEF5F] rounded-full" style="color:black;">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="border rounded-3xl w-full p-6 lg:col-span-3">
+                        <img src="./assets/img2.png" alt="" class="w-full aspect-[3/2] lg:aspect-auto">
+                    </div>
+                    <div class="border rounded-3xl w-full p-6 lg:col-span-2">
+                        <img src="./assets/img3.png" alt="" class="w-full aspect-[3/2]">
+                    </div>
+                    <div class="border rounded-3xl p-6 grid grid-cols-1 sm:grid-cols-2 gap-6 sm:col-span-2 lg:col-span-4 content-center">
+                        <div class="w-full">
+                            <img src="./assets/img4.png" alt="" class="w-full aspect-[3/2]">
+                        </div>
+                        <div>
+                            <h1 class="font-extrabold text-2xl"-extrabold>Luxury Villas</h1>
+                            <p class="my-3">Customized spaces with elegance and precision</p>
+                            <button class="btn rounded-full text-xl font-extrabold">
+                                View Details
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8 p-[6px] bg-[#ABEF5F] rounded-full" style="color:black;">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="border rounded-3xl w-full p-6 lg:col-span-2">
+                        <img src="./assets/img5.png" alt="" class="w-full aspect-[3/2]">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <footer class="footer footer-center bg-[#1C1C1C] text-base-content rounded p-20">
+        <div class="">
+            <button class="btn btn-ghost text-3xl text-white font-extrabold p-0 m-0">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8 p-[6px] bg-[#ABEF5F] rounded-full" style="color:black;">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                </svg>
+                <span>KureeGhar</span>
+            </button>
+        </div>
+        <aside>
+            <p class="paragraph text-[#737373]">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+        </aside>
+        
+        <nav class=" w-11/12 max-w-[500px] grid sm:grid-flow-col gap-4 font-mormal text-[#E9E9E9]">
+            <a href="index.html" class="link link-hover">Home</a>
+            <a href="about.html" class="link link-hover">About</a>
+            <a href="shop.html" class="link link-hover">Shop</a>
+            <a href="contact.html" class="link link-hover">Contact Us</a>
+        </nav>
+        <div>
+            <a href="contact.html" class="btn w-fit mx-auto rounded-full bg-[#ABEF5F] text-xl font-extrabold">
+                Book Consult
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8 p-[6px] bg-black rounded-full" style="color:white;">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                </svg>
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
